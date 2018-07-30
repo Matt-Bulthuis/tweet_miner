@@ -1,4 +1,4 @@
-"""import the necassary methods from the tweepy library, StreamListener, OAuthHandler,
+"""import the necessary methods from the tweepy library, StreamListener, OAuthHandler,
 Stream"""
 
 
@@ -43,3 +43,5 @@ stream = Stream(auth, l)
 
 
 stream.filter(track=['uber', 'lyft', 'taxi'])
+
+
